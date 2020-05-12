@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>COVID-19 information page</title>
+</head>
+
+<body>
+    <div class="page-wraper">
+        <div class="page-content covid-tracker" data-covid-tracker-counter-time="2500">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-12 ">
+                    <div>
+                        <h4>Cases in Serbia</h4>
+                        <span class="counter covid-tracker-country covid-tracker-cases"
+                            data-covid-tracker-country="RS"></span>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12">
+                    <div>
+                        <h4>Victims in Serbia</h4>
+                        <span class="counter covid-tracker-country covid-tracker-deaths"
+                            data-covid-tracker-country="RS"></span>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12">
+                    <div>
+                        <h4>Victims Worldwide</h4>
+                        <span class="counter covid-tracker-global covid-tracker-deaths"></span>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12">
+                    <div>
+                        <h4>Cases Worldwide</h4>
+                        <span class="counter covid-tracker-global covid-tracker-cases"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="dist/covid-tracker.min.js"></script>
+</body>
+</html>
